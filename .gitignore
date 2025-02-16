@@ -1,0 +1,7 @@
+# Ignorar todo dentro de data y results, excepto .gitkeep
+data/*
+results/*
+
+# No ignorar .gitkeep dentro de cualquier subcarpeta
+!data/**/.gitkeep
+!results/**/.gitkeep
