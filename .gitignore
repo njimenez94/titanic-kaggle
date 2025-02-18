@@ -1,9 +1,9 @@
 # Ignorar todo dentro de data y results, excepto .gitkeep
-data/*
-results/*
+#data/*
+#results/*
 environments/
 
 
 # No ignorar .gitkeep dentro de cualquier subcarpeta
-!data/**/.gitkeep
-!results/**/.gitkeep
+#!data/**/.gitkeep
+#!results/**/.gitkeep
